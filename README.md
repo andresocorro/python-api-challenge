@@ -21,3 +21,12 @@ However it was interesting to see that there is a lot of cities with clear skies
 Also understandably so, winds tend to oscillate between 0 and 15mph regardless of a city's location in the hemisphere.
 
 
+# VacationPy
+
+In a brief continuation using the data from the cities found above, we now created a heatmap based on the humidity of these cities and then using the Google Places API we also marked hotels on those cities that meet some criteria determined as ideal. Such as temperatures between 60 and 85 degrees (F), low humidity, without many clouds.
+
+These markers contain an info label that contain the name of the city, the country the city is located and the closest hotel to it for easy reference
+
+![Google Maps Image](output_data/Gmaps_summary.PNG)
+
+ 
